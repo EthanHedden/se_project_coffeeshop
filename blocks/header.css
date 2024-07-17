@@ -9,6 +9,8 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 1;
 }
 
 .header__title{
@@ -27,6 +29,7 @@
   font-family: "Noto Serif", 'Times New Roman', serif;
   font-style: italic;
   color: #2f80ed;
+  font-weight: 500;
 }
 
 .header__description{
@@ -36,6 +39,7 @@
   line-height: 30px;
   margin-left: 80px;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .header__image{
@@ -44,7 +48,7 @@
  height: 568px;
  right: 5px;
  top: 124px;
- z-index: 1;
+ z-index: -1;
 }
 
 .header__footer{

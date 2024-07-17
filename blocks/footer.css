@@ -7,8 +7,8 @@
 .footer__content{
   display: flex;
   justify-content: space-between;
-  padding: 60px 80px 108px 80px;
-
+  margin: 0 80px 108px 80px;
+  padding-top: 60px;
 }
 
 .footer__logo {
@@ -35,8 +35,8 @@
   gap: 16px;
 }
 
-
 .footer__social-link {
+  color: #fff;
   margin-left: 10px;
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
@@ -49,12 +49,9 @@
   transition-duration:  1s;
 }
 
-
-
 .footer__social-icon {
   width: 16px;
   height: 16px;
-
 }
 
 .footer__copyright {
@@ -64,4 +61,6 @@
   font-size: 16px;
   line-height: 20px;
   color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
 }
